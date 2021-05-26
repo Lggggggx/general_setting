@@ -146,3 +146,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+alias zshconfig="vim ~/.zshrc"
+alias vimconfig="vim ~/.vimrc"
+alias grep='grep --color=auto'
